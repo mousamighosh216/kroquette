@@ -1,0 +1,151 @@
+@font-face {
+    font-family: customfont;
+    src: url(Genty.ttf);
+}
+
+body{
+    padding-bottom: 1000px;
+    margin:0;
+    position: absolute;
+}
+
+html { overflow-y: scroll; overflow-x:hidden; } 
+
+a{
+    text-decoration: none;
+    color:white;
+}
+.scroll-down {
+	header {
+		transform: translate3d(0, -100%, 0);
+	}
+}
+
+.scroll-up {
+	header {
+		filter: drop-shadow(0 -10px 20px rgb(0, 0, 0));
+	}
+}
+
+
+
+header{   
+    height: 110px;
+    position: fixed; 
+    top:0;
+    left:0;
+    right:0;
+    background-image:url(images/header.jpeg);
+    justify-content:space-between;
+    align-items: center;
+    z-index: 100;
+    transition: .3s;
+    box-shadow: 0 -10px 10px black;
+  
+}
+
+.h1{
+    display: flex;
+    flex-direction:row;
+    height:80px;
+    /* margin:0; */
+}
+
+.h2{
+    height:30px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    font-family: customfont;
+    align-items: center;
+    color: white;
+    margin-left:200px;
+    margin-right: 200px;
+}
+
+.h-left{
+    width:80px;
+}
+
+.h-mid{
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: customfont;
+    font-size: 50px;
+    color: white;
+}
+
+.head{
+    text-shadow: 0 1px 3px rgb(216, 104, 142);
+}
+
+.h-right{
+    width: 80px;
+}
+
+.image{
+    height: 70px;
+    width:150px;
+}
+
+.box{
+    margin-top: 110px;
+    height:600px;
+    width:500%;
+    position: relative;
+    animation:20s box infinite;
+
+}
+
+.box img{
+    margin:0;
+    height:600px;
+    left:0;
+    float:left;
+    width:20%;
+}
+
+@keyframes box {
+    0%{
+        left:0;
+    }
+    20%{
+        left:0;
+    }
+    25%{
+        left:-100%;
+    }
+    45%{
+        left:-100%;
+    }
+    50%{
+        left:-200%;
+    }
+    70%{
+        left:-200%;
+    }
+    75%{
+        left:-300%;
+    }
+    90%{
+        left:-300%;
+    } 
+    100%{
+        left:-400%;
+    }
+
+}
+
+div .h2{
+    text-shadow: 0 1px 2px rgb(216, 104, 142);
+}
+
+.head-1{
+    display: flex;
+    justify-content: center;
+    font-family: customfont;
+    margin:20px;
+    font-size: 35px;
+}
