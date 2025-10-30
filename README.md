@@ -2,4 +2,4 @@
 </br>
 This website is for a small crochet business.Website isn't completed yet working on it
 
-First website made by me using HTML,CSS and JavaScript. 
+(banani viva bbg ke liye thi, but she doesn't need it anymore 👉🏼👈🏼)
